@@ -150,6 +150,7 @@ img{
 }
 .nav-logo{
     color: var(--second-color);
+    font-size: 1.3rem;
 }
 .nav-toggle{
     color: var(--second-color);
@@ -215,7 +216,7 @@ img{
 /* button */
 .button{
     display: inline-block;
-    background-color: var(--first-color);
+    background-image: linear-gradient(var(--first-color),#24acc7);
     color: white;
     padding: .75rem 2.5rem;
     font-weight: var(--font-semi);
