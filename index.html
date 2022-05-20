@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="boxicons-2.1.2/css/boxicons.min.css">
     <link rel="stylesheet" href="fontawesome-free-6.0.0-web/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
 <!-- header -->
@@ -22,8 +23,8 @@
                     <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
                     <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
                     <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                    <!-- <li class="nav-item"><a href="#" class="nav-link">Work</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li> -->
+                    <!-- <li class="nav-item"><a href="#" class="nav-link">Work</a></li> -->
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
             </div>
 
@@ -40,7 +41,7 @@
         <section class="home bd-grid" id="home">
             <div class="home-data">
                 <h1 class="home-title">Hi, <br>I'am <span class="home-title-color">Munaver</span><br> Web & Graphic Designer</h1>
-                <a href="#" class="button">Contact</a>
+                <a href="#contact" class="button">Contact</a>
             </div>
 
             <div class="home-social">
@@ -178,6 +179,22 @@
 
             </div>
         </section>
+
+                    <!--===== CONTACT =====-->
+                    <section class="contact section" id="contact">
+                        <h2 class="section-title">Contact</h2>
+        
+                        <div class="contact__container bd-grid">
+                            <form action="" class="contact__form" id="submit-form">
+                                <input type="text" name="name" placeholder="Name" class="contact__input" required>
+                                <input type="mail" name="email" placeholder="Email" class="contact__input" required>
+                                <textarea name="message" id="msg-input" cols="0" rows="10" class="contact__input" placeholder="Your message here" required></textarea>
+                                <input type="submit" value="submit" class="contact__button button">
+                            </form>
+                        </div>
+                    </section>
+
+        
 
         <!-- FOOTER -->
 

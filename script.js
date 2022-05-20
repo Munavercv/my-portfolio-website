@@ -85,3 +85,24 @@ sr.reveal('.home-data, .about-img, .skills-subtitle, .skills-text',{});
 sr.reveal('.home-img, .about-subtitle, .about-text, .skills-img',{delay: 400}); 
 sr.reveal('.home-social-icon',{ interval: 200}); 
 sr.reveal('.skills-data, .work-img, .contact-input',{interval: 200}); 
+
+
+// Submit Contat form
+
+$("#submit-form").submit((e)=>{
+    e.preventDefault()
+    $.ajax({
+        url:"https://script.google.com/macros/s/AKfycbybrHSr8PaB-vftxztbxN9Mf8PJXP8H7HsOkBnYvaw9-Gx4Rs9M/exec",
+        data:$("#submit-form").serialize(),
+        method:"post",
+        success:function (response){
+            alert("Form submitted successfully")
+            window.location.reload()
+            //window.location.href="https://google.com"
+        },
+        error:function (err){
+            alert("Something Error")
+
+        }
+    })
+})
