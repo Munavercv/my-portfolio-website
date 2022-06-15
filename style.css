@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 /* variables */
 :root{
     --header-height: 3rem;
@@ -301,13 +301,13 @@ img{
     width: 20%;
 }
 .skills-gd{
-    width: 80%;
+    width: 85%;
 }
 .skills-vid{
     width: 60%;
 }
 .skills-pg{
-    width: 75%;
+    width: 60%;
 }
 .skills-img{
     border-radius: .5rem;
